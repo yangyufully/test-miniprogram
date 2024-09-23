@@ -1,0 +1,355 @@
+{
+  "unpublishedPage": {
+    "name": "产品页",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 820,
+          "containerStyle": "none",
+          "snapRows": 79,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 71,
+          "minHeight": 800,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "loading1",
+              "isCanvas": false,
+              "displayName": "加载遮罩",
+              "iconSVG": "/static/media/icon.1d5324f2c8ba9dbe53a625929dacb996.svg",
+              "searchTags": [
+                "loading"
+              ],
+              "topRow": 19,
+              "bottomRow": 27,
+              "parentRowSpace": 10,
+              "showLoading": false,
+              "type": "TARO_LOADING_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 30,
+              "dynamicBindingPathList": [],
+              "isMobile": true,
+              "key": "t9xhwk3pgv",
+              "isDeprecated": false,
+              "rightColumn": 46,
+              "detachFromLayout": true,
+              "widgetId": "h1jp29w078",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
+            },
+            {
+              "widgetName": "sku1",
+              "color": "#f44336",
+              "isCanvas": false,
+              "goodsId": "10010",
+              "displayName": "商品规格",
+              "iconSVG": "/static/media/icon.2b42a32fa31e69449ff37e31e69ac966.svg",
+              "searchTags": [
+                "sku",
+                "表单",
+                "form"
+              ],
+              "topRow": 1,
+              "bottomRow": 33,
+              "parentRowSpace": 10,
+              "pic": "https://b.yzcdn.cn/vant/sku/shoes-1.png",
+              "type": "TARO_SKU_WIDGET",
+              "hideCard": false,
+              "products": [
+                {
+                  "id": "2259",
+                  "category": {
+                    "color": "2",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 110
+                },
+                {
+                  "id": "2260",
+                  "category": {
+                    "color": "3",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 99
+                },
+                {
+                  "id": "2257",
+                  "category": {
+                    "color": "1",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 111
+                },
+                {
+                  "id": "2258",
+                  "category": {
+                    "color": "1",
+                    "size": "2"
+                  },
+                  "price": 100,
+                  "stock": 6
+                }
+              ],
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [],
+              "price": 399,
+              "stockNum": 999,
+              "categories": [
+                {
+                  "name": "颜色",
+                  "key": "color",
+                  "values": [
+                    {
+                      "id": "1",
+                      "name": "粉色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-1.png"
+                    },
+                    {
+                      "id": "2",
+                      "name": "黄色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-2.png"
+                    },
+                    {
+                      "id": "3",
+                      "name": "蓝色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-3.png"
+                    }
+                  ]
+                },
+                {
+                  "name": "尺寸",
+                  "key": "size",
+                  "values": [
+                    {
+                      "id": "1",
+                      "name": "大"
+                    },
+                    {
+                      "id": "2",
+                      "name": "小"
+                    }
+                  ]
+                }
+              ],
+              "isMobile": true,
+              "key": "1lifax8zy0",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "nxsrxh4cez",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
+            },
+            {
+              "widgetName": "checkbox1",
+              "isCanvas": false,
+              "displayName": "复选框",
+              "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+              "searchTags": [
+                "checkbox"
+              ],
+              "topRow": 34,
+              "bottomRow": 38,
+              "parentRowSpace": 10,
+              "showLoading": false,
+              "type": "TARO_CHECKBOX_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [],
+              "isDisabled": false,
+              "isMobile": true,
+              "key": "795xj4ssw4",
+              "isDeprecated": false,
+              "rightColumn": 20,
+              "widgetId": "tt8dzuinne",
+              "isVisible": true,
+              "label": "勾选",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "defaultCheckedState": true
+            },
+            {
+              "widgetName": "search1",
+              "isCanvas": false,
+              "displayName": "搜索框",
+              "iconSVG": "/static/media/icon.02dadb91d73ad94aa8aaabf7fef790c7.svg",
+              "searchTags": [
+                "search input"
+              ],
+              "topRow": 40,
+              "bottomRow": 48,
+              "parentRowSpace": 10,
+              "type": "TARO_SEARCH_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "readonly": false,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [],
+              "isMobile": true,
+              "key": "bvcd5ihxzr",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "eawchq7ohf",
+              "inputAlign": "left",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "showButton": false,
+              "rounded": true
+            },
+            {
+              "widgetName": "bottom_bar1",
+              "isCanvas": true,
+              "displayName": "底部面板",
+              "iconSVG": "/static/media/icon.8cce004a9e866f3abf714814a2a8e8e9.svg",
+              "searchTags": [
+                "bottom bar"
+              ],
+              "topRow": 50,
+              "bottomRow": 62,
+              "parentRowSpace": 10,
+              "type": "TARO_BOTTOM_BAR_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 1,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 120,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 120,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [],
+                  "isDisabled": false,
+                  "key": "0zf79l1t34",
+                  "isDeprecated": false,
+                  "rightColumn": 438,
+                  "detachFromLayout": true,
+                  "widgetId": "02oao6pk08",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "f2rnmknjuv",
+                  "renderMode": "CANVAS",
+                  "isLoading": false
+                }
+              ],
+              "isMobile": true,
+              "key": "2aqvbm6s94",
+              "height": 100,
+              "isDeprecated": false,
+              "rightColumn": 65,
+              "detachFromLayout": true,
+              "widgetId": "f2rnmknjuv",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
+            },
+            {
+              "widgetName": "kv1",
+              "kColor": "#666",
+              "kKey": "key",
+              "vBold": true,
+              "isCanvas": false,
+              "displayName": "键值对",
+              "iconSVG": "/static/media/icon.422ac79b42f76dc1861d3266306aeaa3.svg",
+              "kSize": "PARAGRAPH",
+              "kAlign": "LEFT",
+              "searchTags": [
+                "kv",
+                "text",
+                "文本",
+                "field"
+              ],
+              "topRow": 50,
+              "bottomRow": 74,
+              "parentRowSpace": 10,
+              "type": "TARO_KV_WIDGET",
+              "vColor": "#333",
+              "vAlign": "LEFT",
+              "hideCard": false,
+              "kBold": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 6,
+              "dynamicBindingPathList": [],
+              "isMobile": true,
+              "key": "i7t37hf9bb",
+              "isDeprecated": false,
+              "rightColumn": 54,
+              "inset": false,
+              "widgetId": "ci2nvc2u01",
+              "isVisible": true,
+              "list": [
+                {
+                  "key": "绿蚁新醅酒",
+                  "value": "红泥小火炉"
+                },
+                {
+                  "key": "晚来天欲雪",
+                  "value": "能饮一杯无"
+                }
+              ],
+              "version": 1,
+              "parentId": "0",
+              "layout": "h",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "vSize": "PARAGRAPH",
+              "vKey": "value"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "产品页",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "66f0dec09d28026fe788f4a0_66f107b39d28026fe788f598"
+}

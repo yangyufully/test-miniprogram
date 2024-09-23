@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "首页",
+    "slug": "",
     "layouts": [
       {
         "viewMode": false,
@@ -280,13 +280,122 @@
               "urlKey": "url",
               "renderMode": "CANVAS",
               "isLoading": false
+            },
+            {
+              "widgetName": "sku1",
+              "color": "#f44336",
+              "isCanvas": false,
+              "goodsId": "10010",
+              "displayName": "商品规格",
+              "iconSVG": "/static/media/icon.2b42a32fa31e69449ff37e31e69ac966.svg",
+              "searchTags": [
+                "sku",
+                "表单",
+                "form"
+              ],
+              "topRow": 55,
+              "bottomRow": 87,
+              "parentRowSpace": 10,
+              "pic": "https://b.yzcdn.cn/vant/sku/shoes-1.png",
+              "type": "TARO_SKU_WIDGET",
+              "hideCard": false,
+              "products": [
+                {
+                  "id": "2259",
+                  "category": {
+                    "color": "2",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 110
+                },
+                {
+                  "id": "2260",
+                  "category": {
+                    "color": "3",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 99
+                },
+                {
+                  "id": "2257",
+                  "category": {
+                    "color": "1",
+                    "size": "1"
+                  },
+                  "price": 100,
+                  "stock": 111
+                },
+                {
+                  "id": "2258",
+                  "category": {
+                    "color": "1",
+                    "size": "2"
+                  },
+                  "price": 100,
+                  "stock": 6
+                }
+              ],
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 3,
+              "dynamicBindingPathList": [],
+              "price": 399,
+              "stockNum": 999,
+              "categories": [
+                {
+                  "name": "颜色",
+                  "key": "color",
+                  "values": [
+                    {
+                      "id": "1",
+                      "name": "粉色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-1.png"
+                    },
+                    {
+                      "id": "2",
+                      "name": "黄色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-2.png"
+                    },
+                    {
+                      "id": "3",
+                      "name": "蓝色",
+                      "pic": "https://b.yzcdn.cn/vant/sku/shoes-3.png"
+                    }
+                  ]
+                },
+                {
+                  "name": "尺寸",
+                  "key": "size",
+                  "values": [
+                    {
+                      "id": "1",
+                      "name": "大"
+                    },
+                    {
+                      "id": "2",
+                      "name": "小"
+                    }
+                  ]
+                }
+              ],
+              "isMobile": true,
+              "key": "o017vm2y4x",
+              "isDeprecated": false,
+              "rightColumn": 59,
+              "widgetId": "ji4hlt3aot",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
             }
           ]
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "首页",
         "deleted": false,
         "policies": [],
         "userPermissions": []

@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "首页",
       "isDefault": true
+    },
+    {
+      "id": "产品页",
+      "isDefault": false
     }
   ],
   "viewMode": false,
