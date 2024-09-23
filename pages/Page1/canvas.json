@@ -34,8 +34,8 @@
               "searchTags": [
                 "action bar"
               ],
-              "topRow": 45,
-              "bottomRow": 53,
+              "topRow": 1,
+              "bottomRow": 9,
               "parentRowSpace": 10,
               "type": "TARO_ACTION_BAR_WIDGET",
               "hideCard": false,
@@ -68,12 +68,12 @@
                   "buttonType": "danger"
                 }
               },
-              "leftColumn": 0,
+              "leftColumn": 3,
               "dynamicBindingPathList": [],
               "isMobile": true,
               "key": "plg1f62lou",
               "isDeprecated": false,
-              "rightColumn": 56,
+              "rightColumn": 59,
               "widgetId": "m59qb9vrhh",
               "isVisible": true,
               "version": 1,
@@ -89,20 +89,20 @@
               "searchTags": [
                 "checkbox"
               ],
-              "topRow": 64,
-              "bottomRow": 68,
+              "topRow": 19,
+              "bottomRow": 23,
               "parentRowSpace": 10,
               "showLoading": false,
               "type": "TARO_CHECKBOX_WIDGET",
               "hideCard": false,
               "parentColumnSpace": 6.84375,
-              "leftColumn": 10,
+              "leftColumn": 3,
               "dynamicBindingPathList": [],
               "isDisabled": false,
               "isMobile": true,
               "key": "cobhvnmobo",
               "isDeprecated": false,
-              "rightColumn": 26,
+              "rightColumn": 19,
               "widgetId": "p27u78x1rf",
               "isVisible": true,
               "label": "勾选",
@@ -181,19 +181,19 @@
               "searchTags": [
                 "search input"
               ],
-              "topRow": 71,
-              "bottomRow": 79,
+              "topRow": 10,
+              "bottomRow": 18,
               "parentRowSpace": 10,
               "type": "TARO_SEARCH_WIDGET",
               "hideCard": false,
               "parentColumnSpace": 6.84375,
               "readonly": false,
-              "leftColumn": 4,
+              "leftColumn": 3,
               "dynamicBindingPathList": [],
               "isMobile": true,
               "key": "d56hnnv98k",
               "isDeprecated": false,
-              "rightColumn": 60,
+              "rightColumn": 59,
               "widgetId": "f6lt83qonx",
               "inputAlign": "left",
               "isVisible": true,
@@ -203,6 +203,83 @@
               "isLoading": false,
               "showButton": false,
               "rounded": true
+            },
+            {
+              "widgetName": "text1",
+              "isCanvas": false,
+              "displayName": "文本",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "text",
+                "label",
+                "文字",
+                "标题"
+              ],
+              "topRow": 24,
+              "bottomRow": 28,
+              "parentRowSpace": 10,
+              "type": "TARO_TEXT_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 2,
+              "dynamicBindingPathList": [],
+              "text": "文本",
+              "isMobile": true,
+              "key": "twanfxb60t",
+              "isDeprecated": false,
+              "rightColumn": 18,
+              "textAlign": "LEFT",
+              "widgetId": "3frnyath8x",
+              "isVisible": true,
+              "textColor": "#333",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "fontSize": "1rem"
+            },
+            {
+              "widgetName": "swiper1",
+              "isCanvas": false,
+              "displayName": "轮播",
+              "iconSVG": "/static/media/icon.4f4fc85755aec79b99f64362b22f7493.svg",
+              "searchTags": [
+                "swipper",
+                "image",
+                "picture"
+              ],
+              "topRow": 30,
+              "bottomRow": 54,
+              "parentRowSpace": 10,
+              "type": "TARO_SWIPER_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 2,
+              "dynamicBindingPathList": [],
+              "isMobile": true,
+              "key": "ednzis6l5u",
+              "isDeprecated": false,
+              "rightColumn": 58,
+              "widgetId": "47o0ir1tf7",
+              "isVisible": true,
+              "list": [
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-1.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-2.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-3.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-4.jpg"
+                }
+              ],
+              "parentId": "0",
+              "urlKey": "url",
+              "renderMode": "CANVAS",
+              "isLoading": false
             }
           ]
         },
@@ -216,7 +293,9 @@
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false,
+    "icon": "circle"
   },
   "deleted": false,
   "gitSyncId": "66f0dec09d28026fe788f4a0_66f0dec09d28026fe788f4a2"
