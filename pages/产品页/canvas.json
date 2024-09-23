@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 820,
+          "bottomRow": 830,
           "containerStyle": "none",
           "snapRows": 79,
           "parentRowSpace": 1,
@@ -202,8 +202,8 @@
               "searchTags": [
                 "search input"
               ],
-              "topRow": 40,
-              "bottomRow": 48,
+              "topRow": 43,
+              "bottomRow": 51,
               "parentRowSpace": 10,
               "type": "TARO_SEARCH_WIDGET",
               "hideCard": false,
@@ -299,8 +299,8 @@
                 "文本",
                 "field"
               ],
-              "topRow": 50,
-              "bottomRow": 74,
+              "topRow": 51,
+              "bottomRow": 75,
               "parentRowSpace": 10,
               "type": "TARO_KV_WIDGET",
               "vColor": "#333",
@@ -334,6 +334,43 @@
               "isLoading": false,
               "vSize": "PARAGRAPH",
               "vKey": "value"
+            },
+            {
+              "widgetName": "button1",
+              "onClick": "{{navigateTo('首页', {}, 'SAME_WINDOW')}}",
+              "isCanvas": false,
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.4d1a6789769ffbdc0548128f48d340db.svg",
+              "searchTags": [
+                "button"
+              ],
+              "topRow": 39,
+              "bottomRow": 43,
+              "parentRowSpace": 10,
+              "showLoading": true,
+              "type": "TARO_BUTTON_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 3,
+              "dynamicBindingPathList": [],
+              "text": "好的",
+              "isMobile": true,
+              "key": "ts0i8i7y4c",
+              "isDeprecated": false,
+              "rightColumn": 27,
+              "widgetId": "vcu9ugci20",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "rounded": true,
+              "fontSize": "16px"
             }
           ]
         },

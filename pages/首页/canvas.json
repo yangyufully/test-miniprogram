@@ -389,6 +389,43 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false
+            },
+            {
+              "widgetName": "button1",
+              "onClick": "{{navigateTo('产品页', {}, 'SAME_WINDOW')}}",
+              "isCanvas": false,
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.4d1a6789769ffbdc0548128f48d340db.svg",
+              "searchTags": [
+                "button"
+              ],
+              "topRow": 89,
+              "bottomRow": 93,
+              "parentRowSpace": 10,
+              "showLoading": true,
+              "type": "TARO_BUTTON_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [],
+              "text": "好的",
+              "isMobile": true,
+              "key": "ts0i8i7y4c",
+              "isDeprecated": false,
+              "rightColumn": 28,
+              "widgetId": "pbxtz6qcla",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "rounded": true,
+              "fontSize": "16px"
             }
           ]
         },
